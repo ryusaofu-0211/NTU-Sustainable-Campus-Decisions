@@ -47,6 +47,8 @@ st.set_page_config(
 )
 
 st.title("🌱 Indoor Environmental Dashboard: NTU CERB 6th floor CLab")
+st.write("Created by: Sao-Fu Liu (liusaofu@gmail.com)")
+st.write("Contributiors: Dr. Yuntsui (Tracey) Chang, Dr. Tzong-Hann (Richard) Wu, Dr. Shang-Hsien (Patrick) Hsieh")
 st.subheader("Real-Time Data on Current Room Conditions")
 st.write(
     """
