@@ -177,8 +177,8 @@ st.markdown("""
 7. **AC on + window open for "fresh air"** — AC doesn't ventilate; opening window with AC off is more efficient for air exchange
 8. **Off-hours activity with no motion** — AC/lights active late night–early morning while room is empty
 9. **AC setpoint estimated too low/high** — based on touch panel history, may indicate over/undercooling
-10. **Window open while outdoor air is worse** *(planned — needs outdoor PM2.5 data)*
+10. **Window open while outdoor air is worse** *(compares indoor PM2.5 with outdoors, based on nearby weather station data)*
 11. **Lights on despite daylight + clear skies** — natural light may be sufficient, based on nearby weather station data
 
-*Outdoor comparisons use live data from the CWA weather station nearest NTU. AC on/off state and setpoint are estimated from touch-panel activity, not a direct power reading.*
+*Outdoor comparisons use live data from the Central Weather Administration and Ministry of Enviroment ROC weather station nearest NTU. AC on/off state and setpoint are estimated from touch-panel activity, not a direct power reading.*
 """)
